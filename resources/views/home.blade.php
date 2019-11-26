@@ -13,8 +13,9 @@
           <div class="pr-5"><strong>2k</strong>followers</div>
           <div class="pr-5"><strong>58</strong>following</div>
         </div>
-        <div class="pt-5 font-weight-bold" >freecode.org</div>
-        <div>djskljfkl;djakfljeriojvklmckjnvkegmio</div>    
+        <div class="pt-5 font-weight-bold" >{{$user->profile->title}}</div>
+      <div>{{$user->profile->description}}</div>
+      <div><a href="#">{{$user->profile->url}}</a></div>    
     </div>
   </div>
   <div class="row pt-5">
