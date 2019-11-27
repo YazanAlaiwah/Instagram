@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->integer('phon')->nullable();
             $table->longText('Bio')->nullable();
             $table->boolean('privet')->nullable();	
-            $table->integer('posts')->nullable();
+            // $table->integer('posts')->nullable();
             $table->string('gender')->nullable();	
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
