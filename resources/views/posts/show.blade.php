@@ -2,6 +2,15 @@
 
 @section('content')
 <div class="container">
-  <img src="/storage/{{$post->img}}}">
+  <div class="col-8">
+    <img src="/storage/{{$post->img}}}" class="w-100">
+  </div>
+  <div class="col-4">
+    <div>
+    <h3>{{$post->user->username}}</h3>
+    <p>{{$post->caption}}</p>
+    </div>
+  </div>
+  
 </div>
 @endsection
