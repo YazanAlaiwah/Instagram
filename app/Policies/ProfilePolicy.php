@@ -9,17 +9,6 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 class ProfilePolicy
 {
     use HandlesAuthorization;
-    
-    /**
-     * Determine whether the user can view any profiles.
-     *
-     * @param  \App\User  $user
-     * @return mixed
-     */
-    public function viewAny(User $user)
-    {
-        //
-    }
 
     /**
      * Determine whether the user can view the profile.
